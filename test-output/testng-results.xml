@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="28658" started-at="2020-08-06T16:26:28 CDT" finished-at="2020-08-06T16:26:56 CDT">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="28658" started-at="2020-08-06T16:26:28 CDT" finished-at="2020-08-06T16:26:56 CDT">
+      <class name="com.aa.test.testFlightStatus">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.aa.test.testFlightStatus@3e9b1010]" name="setup" is-config="true" duration-ms="6891" started-at="2020-08-06T16:26:28 CDT" finished-at="2020-08-06T16:26:35 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="navigateBrowser()[pri:0, instance:com.aa.test.testFlightStatus@3e9b1010]" name="navigateBrowser" is-config="true" duration-ms="2685" started-at="2020-08-06T16:26:35 CDT" finished-at="2020-08-06T16:26:37 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateBrowser -->
+        <test-method status="PASS" signature="verifyHeadingOnFlightStatusPage(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.aa.test.testFlightStatus@3e9b1010]" name="verifyHeadingOnFlightStatusPage" duration-ms="4918" started-at="2020-08-06T16:26:37 CDT" data-provider="airport" finished-at="2020-08-06T16:26:42 CDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DFW]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[LAX]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Dallas/ Fort Worth to Los Angeles]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHeadingOnFlightStatusPage -->
+        <test-method status="PASS" signature="navigateBrowser()[pri:0, instance:com.aa.test.testFlightStatus@3e9b1010]" name="navigateBrowser" is-config="true" duration-ms="2402" started-at="2020-08-06T16:26:42 CDT" finished-at="2020-08-06T16:26:45 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateBrowser -->
+        <test-method status="PASS" signature="verifyHeadingOnFlightStatusPage(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.aa.test.testFlightStatus@3e9b1010]" name="verifyHeadingOnFlightStatusPage" duration-ms="4201" started-at="2020-08-06T16:26:45 CDT" data-provider="airport" finished-at="2020-08-06T16:26:49 CDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DFW]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ATL]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Dallas/ Fort Worth to Atlanta]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHeadingOnFlightStatusPage -->
+        <test-method status="PASS" signature="navigateBrowser()[pri:0, instance:com.aa.test.testFlightStatus@3e9b1010]" name="navigateBrowser" is-config="true" duration-ms="2526" started-at="2020-08-06T16:26:49 CDT" finished-at="2020-08-06T16:26:51 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateBrowser -->
+        <test-method status="PASS" signature="verifyHeadingOnFlightStatusPage(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.aa.test.testFlightStatus@3e9b1010]" name="verifyHeadingOnFlightStatusPage" duration-ms="3935" started-at="2020-08-06T16:26:51 CDT" data-provider="airport" finished-at="2020-08-06T16:26:55 CDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DFW]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ORD]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Dallas/ Fort Worth to Chicago]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHeadingOnFlightStatusPage -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.aa.test.testFlightStatus@3e9b1010]" name="tearDown" is-config="true" duration-ms="1011" started-at="2020-08-06T16:26:55 CDT" finished-at="2020-08-06T16:26:56 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.aa.test.testFlightStatus -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
